@@ -1,0 +1,56 @@
+.qr-code-generator {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background: linear-gradient(#833ab4,#fd1d1d,#fcb045);     
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ffffff;
+}
+
+.qr-code-generator h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.qr-code-generator input[type="text"] {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.qr-code-generator button {
+    background: #ffffff;
+  border:3px solid #ffffff;
+    color: #333333;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.qr-code-generator button:hover {
+
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: #ffffff;
+}
+
+#qr-code-result {
+    margin-top: 20px;
+}
+
+#qr-code-result img {
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    background: #ffffff;
+}
